@@ -1,0 +1,38 @@
+#download pip install discord.py 
+
+import discord #imports discord
+ 
+bot = commands.Bot(command_prefix='your prefix' ,intents=intents) #runs your prefix from using @bot.commands().
+intents = discord.Intents.default()# optional but this can be handy one day.
+
+
+@bot.event
+async def on_ready():
+    await bot.change_presence(status=discord.Status.dnd)# if you want the bot do not disturb or add (status=discord.Status.Online) 
+                                                          or (status=discord.Status.Idle)
+    print("Your bot is now Online!")
+
+
+
+
+
+
+bot.run('TOKEN')# ADD YOUR TOKEN HERE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
