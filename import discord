@@ -1,4 +1,15 @@
-#download pip install discord.py 
+#download https://code.visualstudio.com #your main coding software 
+
+---------------------------------------------------------------------
+#download https://www.python.org/downloads/ #latest version
+
+---------------------------------------------------------------------
+#create a file containing python program
+#name the file main.py
+---------------------------------------------------------------------
+#INSIDE THE FILE
+
+#download pip install discord.py in your terminal/command prompt
 
 import discord #imports discord
  
